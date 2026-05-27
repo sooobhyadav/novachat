@@ -93,6 +93,9 @@ npm run dev
 
 ---
 
-## Author
+## Live Demo
 
-Shubham Yadav
+Frontend: https://novachat-kohl.vercel.app/
+
+Backend: https://novachat-production-4120.up.railway.app
+

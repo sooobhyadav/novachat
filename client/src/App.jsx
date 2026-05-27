@@ -46,12 +46,12 @@ function App() {
       </h1>
 
       {/* Main Layout */}
-      <div className="max-w-[1280px] mx-auto grid lg:grid-cols-[320px_auto] gap-8 items-start">
-        {/* Left Side */} // question asking
+      <div className="max-w-[1280px] mx-auto grid md:grid-cols-[320px_auto] gap-8 items-start">
+        {/* Left Side */}
         <form
           onSubmit={handleSubmit}
           className="shadow-lg bg-white p-6 rounded-2xl border border-gray-200 h-fit"
-        > 
+        >
           <h2 className="text-2xl font-semibold mb-5 text-gray-700">
             Ask Anything
           </h2>
@@ -70,7 +70,7 @@ function App() {
             {loading ? "Generating..." : "Create Content"}
           </button>
         </form>
-        {/* Right Side */} // response from backend
+        {/* Right Side */}
         <div className="bg-white shadow-lg rounded-2xl border border-gray-200 overflow-hidden">
           {/* Header */}
           <div className="border-b border-gray-200 p-5">
